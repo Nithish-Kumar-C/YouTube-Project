@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .moneyheist img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+}
+header .top{
+    display: flex;
+    /*justify-content: center;*/
+    margin-bottom: 1.5rem;
+    padding-right: 10rem;
+    /*position: relative;*/
+}
+/* left side*/
+.leftside{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 15rem;
+     
+}
+.line{
+    padding-left: 1rem;
+    padding-right: 1rem;   
+}
+/*.videoyoutube{
+    padding-left: 1rem;
+}
+.youtube{
+    padding-left: 1rem;
+}*/
+.image img{
+    width: 150px;
+    
+}
+/* center */
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 20rem;
+    
+    
+}
+.searchicon{
+    padding-right: 1rem;
+}
+.searchicon button{
+    padding: 0.2rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+input{
+    width: 500px;
+    height: 38px;
+    border: 1px solid black;  
+}
+.search input::placeholder{
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    
+}
+.mic button{
+    padding: 0.3rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    border: 1px solid black;
+    border-radius:50%;
+}
+
+
+/*right side */
+.rightside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.video{
+    padding-right: 1rem;
+}
+.bell{
+    padding-right: 1rem;
+}
+
+
+
+
+/*nav decoration css */
+nav{
+    margin-bottom: 0.5rem;
+    margin-left: 3rem;
+    width: 100%;
+    max-width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem; 
+    list-style-type: none;  
+}
+li{
+    margin-right: 1rem;
+}
+
+ul li{
+    border: 1px solid black;
+    border-radius: 17%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    background-color:#f4f0f0;
+    
+
+}
+
+li:hover{
+    background-color: #fff;
+}
+li a{
+    text-decoration: none;    
+}
+a:hover{
+    color: #0f0f0f;
+}
+/* let start image styling css row1*/
+#row1{
+    display: flex;    
+}
+.firstimagerow1 figure img{
+    width: 325px;
+    margin-top: 10rem;
+    
+}
+.secondimagerow1 figure img{
+    width: 325px;
+    margin-top: 10rem;
+    
+}
+.thirdimagerow1 figure img{
+    width: 325px;
+    margin-top: 10rem;
+    
+}
+.fourthimagerow1 figure img{
+    width: 325px;
+    margin-top: 10rem;
+    
+}
+.profile img{
+    width: 40px;
+    
+    border-radius: 50%;
+}
+/* footer css style*/
+footer{
+    width: 100%;
+}
+footer .bottom{
+    position: fixed;
+    top: 7%;
+    padding-left: 1rem;
+    
+}
+.bottom .home{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.bottom .shorts{
+    padding-bottom: 2rem;
+}
+.bottom .subscriptions{
+    padding-bottom: 2rem;
+}
+.bottom .you{
+    padding-bottom: 2rem;
+}
+.bottom .downloads{
+    padding-bottom: 2rem;
+}
+
